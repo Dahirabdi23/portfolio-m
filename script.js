@@ -8,10 +8,13 @@ about.addEventListener("click", function(){
     aboutme.style.display = "block";
 })
 project.addEventListener("click", function(){
-    aboutme.style.display = "hidden";
     proj.style.display = "block";
+    //aboutme.style.visibility = "hidden";
+    //info.style.visibility = "hidden";
+    
 })
 contact.addEventListener("click", function(){
     info.style.display = "block";
-    aboutme.style.display = "hidden";
+    //aboutme.style.visibility = "hidden";
+    //proj.style.visibility = "hidden";
 })
